@@ -13,7 +13,7 @@ use Data::Dumper;
 use Sorter;
 
 my $sorter = Sorter->new;
-$sorter->set_values(5,4,3,2,1);
+$sorter->set_values(5,4,3,-30,2,1,22,44,11,9,19);
 $sorter->sort;
 my @array = $sorter->get_values; # (1,2,3,4,5) が返ってくる
 
